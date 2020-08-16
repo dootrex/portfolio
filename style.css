@@ -2,6 +2,14 @@
   padding: none;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
+.nav {
+  position: fixed;
+  z-index: 1;
 }
 .heroy {
   height: 100vh;
@@ -24,7 +32,7 @@
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: rgba(255, 255, 255, 0.712);
+  background-color: black;
   margin: 5px;
 }
 .nav-links {
@@ -89,14 +97,158 @@
 .skills {
   min-height: 50vh;
   width: 100%;
+  background-color: rgb(212, 68, 68);
 }
 .about {
   min-height: 50vh;
   width: 100%;
+  background-color: cornsilk;
 }
 .golu {
   height: 8rem;
   width: 8rem;
   border-radius: 50%;
   background-color: cadetblue;
+}
+.about-text {
+  width: 8rem;
+}
+.contact {
+  background-color: #252934;
+}
+.icon {
+  color: whitesmoke;
+  font-size: 5rem;
+}
+.whitey {
+  color: whitesmoke;
+}
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50% 3% 50%;
+  border-color: transparent transparent rgb(212, 68, 68) transparent;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3vh 38vw 0 38vw;
+  border-color: #468c74 transparent transparent transparent;
+}
+.pink-arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3vh 38vw 0 38vw;
+  border-color: rgb(212, 68, 68) transparent transparent transparent;
+}
+.headings {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  letter-spacing: 5px;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.stars,
+.twinkling,
+.clouds {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.stars {
+  z-index: -5;
+  background: #000 url("https://image.ibb.co/mjnygo/stars.png") repeat top
+    center;
+}
+
+.twinkling {
+  z-index: -4;
+  background: transparent url("https://image.ibb.co/ir1DE8/twinkling.png")
+    repeat top center;
+  animation: move-twink-back 200s linear infinite;
+}
+
+.clouds {
+  z-index: -3;
+  background: transparent url("https://image.ibb.co/bT4N7T/clouds.png") repeat
+    top center;
+  animation: move-clouds-back 200s linear infinite;
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@keyframes move-clouds-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+.emaily-wrap {
+  position: relative;
+  height: 17rem;
+}
+.img-img {
+  height: 17rem;
+  width: 20rem;
+}
+.emaily-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 20rem;
+  height: 17rem;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0.2s;
+}
+
+.emaily-wrap:hover .emaily-description {
+  visibility: visible;
+  opacity: 1;
+}
+.stocky-wrap {
+  position: relative;
+  height: 17rem;
+}
+.stocky-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 20rem;
+  height: 17rem;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0.2s;
+}
+
+.stocky-wrap:hover .stocky-description {
+  visibility: visible;
+  opacity: 1;
 }
