@@ -252,3 +252,9 @@ body {
   visibility: visible;
   opacity: 1;
 }
+.list-group-item {
+  width: 9rem;
+}
+.list-group-item:hover {
+  background-color: violet;
+}
