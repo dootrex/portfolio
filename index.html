@@ -26,311 +26,315 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="nav">
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#heroy">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <section>
-      <div class="heroy" id="heroy">
-        <div class="stars"></div>
-        <div class="twinkling"></div>
-        <div class="clouds"></div>
-        <div class="leader">
-          <h1 class="headings">Avi Gill</h1>
-          <div>
-            <strong
-              >Your Friendly Neighbourhood
-              <span class="whitey">Full-Stack Developer</span>
-            </strong>
+    <div class="wrapper">
+      <nav class="nav">
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#heroy">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section>
+        <div class="heroy" id="heroy">
+          <div class="stars"></div>
+          <div class="twinkling"></div>
+          <div class="clouds"></div>
+          <div class="leader">
+            <h1 class="headings">Avi Gill</h1>
+            <div>
+              <strong
+                >Your Friendly Neighbourhood
+                <span class="whitey">Full-Stack Developer</span>
+              </strong>
+            </div>
+            <div class="text-center my-3">
+              <a href="mailto:avigill@hotmail.ca" style="color: black;"
+                >avigill@hotmail.ca</a
+              >
+            </div>
+            <div class="text-center">
+              <a href="https://github.com/dootrex"
+                ><i
+                  class="fab fa-github icon mx-2"
+                  style="font-size: 2rem; color: black;"
+                ></i
+              ></a>
+              <a href="https://linkedin.com/in/dootrex"
+                ><i
+                  class="fab fa-linkedin-in icon mx-2"
+                  style="font-size: 2rem; color: black;"
+                ></i
+              ></a>
+              <a href="https://medium.com/@avigill_65369"
+                ><i
+                  class="fab fa-medium icon mx-2"
+                  style="font-size: 2rem; color: black;"
+                ></i
+              ></a>
+            </div>
           </div>
-          <div class="text-center my-3">
-            <a href="mailto:avigill@hotmail.ca" style="color: black;"
+        </div>
+      </section>
+      <section>
+        <div class="about container text-center py-5" id="about">
+          <!-- <div class="arrow-down"></div> -->
+          <h3
+            class="headings"
+            data-aos="zoom-in-up"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
+            ABOUT
+          </h3>
+          <div
+            class="row"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
+            <div
+              class="col-md-6 d-flex justify-content-around align-items-center my-5"
+            >
+              <div class="text-center">
+                <div
+                  class="golu d-flex justify-content-around align-items-center"
+                >
+                  <i class="material-icons icon">speed</i>
+                </div>
+                <h4>Fast</h4>
+                <div class="about-text">
+                  Fast load times and lag free interaction, my highest priority.
+                </div>
+              </div>
+              <div class="text-center">
+                <div
+                  class="golu d-flex justify-content-around align-items-center"
+                >
+                  <i class="material-icons icon">important_devices</i>
+                </div>
+                <h4>Responsive</h4>
+                <div class="about-text">
+                  My layouts will work on any device, big or small.
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-around align-items-center">
+              <div class="text-center">
+                <div
+                  class="golu d-flex justify-content-around align-items-center"
+                >
+                  <i class="material-icons icon">emoji_objects</i>
+                </div>
+                <h4>Intuitive</h4>
+                <div class="about-text">
+                  Strong preference for accessible, easy to use, intuitive
+                  UX/UI.
+                </div>
+              </div>
+              <div class="text-center">
+                <div
+                  class="golu d-flex justify-content-around align-items-center"
+                >
+                  <i class="material-icons icon">flight_takeoff</i>
+                </div>
+                <h4>Dynamic</h4>
+                <div class="about-text">
+                  Websites don't have to be static, will make pages come to
+                  life.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row container">
+            <div class="col-md-7">
+              <div data-aos="zoom-out" data-aos-duration="1500">
+                <img
+                  src="./images/myPic.jpg"
+                  alt=""
+                  class="img-fluid rounded-pill"
+                />
+              </div>
+              <div class="display-3">Who is this guy?</div>
+              <div class="lead">
+                I'm a Full-Stack Developer from Vancouver,BC. I am passionate
+                about building excellent software that improves the lives of
+                those around me. Feel free to take a look at my
+                <a href="#projects">projects</a> code and live-websites.
+                <a href="#contact">Let's make something special.</a>
+              </div>
+            </div>
+            <div
+              class="col-md-5 d-flex justify-content-center align-items-center mt-3"
+            >
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-warning rounded-pill">
+                  Front-End
+                </li>
+                <li class="list-group-item rounded-pill">
+                  HTML
+                </li>
+                <li class="list-group-item rounded-pill">CSS</li>
+                <li class="list-group-item rounded-pill">
+                  Javascript
+                </li>
+                <li class="list-group-item rounded-pill">
+                  React
+                </li>
+                <li class="list-group-item rounded-pill">Redux</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-warning rounded-pill">
+                  Back-End
+                </li>
+                <li class="list-group-item rounded-pill">
+                  NodeJS
+                </li>
+                <li class="list-group-item rounded-pill">Express</li>
+                <li class="list-group-item rounded-pill">
+                  Mongo
+                </li>
+                <li class="list-group-item rounded-pill">API's</li>
+                <li class="list-group-item rounded-pill">OAuth</li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="arrow-up mt-3"></div> -->
+        </div>
+      </section>
+      <div class="skills container text-center py-5" id="projects">
+        <h3
+          class="headings"
+          data-aos="flip-up"
+          data-aos-duration="1000"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
+          PROJECTS
+        </h3>
+        <div class="row d-flex justify-content-center">
+          <div
+            class="col-7 col-md-6 d-flex justify-content-center py-2"
+            data-aos="slide-right"
+            data-aos-delay="100"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
+            <div class="emaily-wrap">
+              <img src="./images/emaily.jpg" class="img-img" alt="..." />
+              <div class="emaily-description text-center pt-5">
+                <h3>Emaily</h3>
+                <h5>
+                  React JS / Redux / NodeJS / Mongo / OAuth / SendGrid
+                </h5>
+                <p>
+                  A convenient place to send surveys and organize your surveys
+                  based on responses.
+                </p>
+                <div class="d-flex justify-content-around">
+                  <a
+                    class="btn btn-primary"
+                    href="https://radiant-headland-71325.herokuapp.com/"
+                    >Live</a
+                  >
+                  <a
+                    class="btn btn-primary"
+                    href="https://github.com/dootrex/emaily"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-7 col-md-6 d-flex justify-content-center py-2"
+            data-aos="slide-left"
+            data-aos-offset="100"
+            data-aos-delay="100"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
+            <div class="stocky-wrap">
+              <img src="./images/stocky.jpg" class="img-img" alt="..." />
+              <div class="stocky-description text-center pt-5">
+                <h3>Stocky</h3>
+                <h5>
+                  React JS / Redux / NodeJS / Mongo / OAuth / IexAPI
+                </h5>
+                <p>A virtual Stock Trading Platform</p>
+                <div class="d-flex justify-content-around">
+                  <a
+                    href="https://infinite-bayou-69373.herokuapp.com/"
+                    class="btn btn-primary"
+                    >Live</a
+                  >
+                  <a
+                    href="https://github.com/dootrex/stock"
+                    class="btn btn-primary"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section></section>
+      <section>
+        <div class="contact container text-center py-5" id="contact">
+          <!-- <div class="pink-arrow"></div> -->
+          <h3
+            class="headings"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            style="color: whitesmoke;"
+          >
+            CONTACT
+          </h3>
+          <div class="d-flex justify-content-around align-items-center">
+            <div
+              class="golu d-flex align-items-center justify-content-center"
+              data-aos="zoom-in"
+            >
+              <a href="https://linkedin.com/in/dootrex"
+                ><i class="fab fa-linkedin-in icon"></i
+              ></a>
+            </div>
+            <div
+              class="golu d-flex align-items-center justify-content-center"
+              data-aos="zoom-in"
+            >
+              <a href="https://github.com/dootrex"
+                ><i class="fab fa-github icon"></i
+              ></a>
+            </div>
+            <div
+              class="golu d-flex align-items-center justify-content-center"
+              data-aos="zoom-in"
+            >
+              <a href="https://medium.com/@avigill_65369"
+                ><i class="fab fa-medium icon"></i
+              ></a>
+            </div>
+          </div>
+          <div class="text-center mt-3">
+            <a href="mailto:avigill@hotmail.ca" style="color: whitesmoke;"
               >avigill@hotmail.ca</a
             >
           </div>
-          <div class="text-center">
-            <a href="https://github.com/dootrex"
-              ><i
-                class="fab fa-github icon mx-2"
-                style="font-size: 2rem; color: black;"
-              ></i
-            ></a>
-            <a href="https://linkedin.com/in/dootrex"
-              ><i
-                class="fab fa-linkedin-in icon mx-2"
-                style="font-size: 2rem; color: black;"
-              ></i
-            ></a>
-            <a href="https://medium.com/@avigill_65369"
-              ><i
-                class="fab fa-medium icon mx-2"
-                style="font-size: 2rem; color: black;"
-              ></i
-            ></a>
-          </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <div class="about container text-center py-5" id="about">
-        <!-- <div class="arrow-down"></div> -->
-        <h3
-          class="headings"
-          data-aos="zoom-in-up"
-          data-aos-mirror="true"
-          data-aos-once="false"
-        >
-          ABOUT
-        </h3>
-        <div
-          class="row"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-mirror="true"
-          data-aos-once="false"
-        >
-          <div
-            class="col-md-6 d-flex justify-content-around align-items-center my-5"
-          >
-            <div class="text-center">
-              <div
-                class="golu d-flex justify-content-around align-items-center"
-              >
-                <i class="material-icons icon">speed</i>
-              </div>
-              <h4>Fast</h4>
-              <div class="about-text">
-                Fast load times and lag free interaction, my highest priority.
-              </div>
-            </div>
-            <div class="text-center">
-              <div
-                class="golu d-flex justify-content-around align-items-center"
-              >
-                <i class="material-icons icon">important_devices</i>
-              </div>
-              <h4>Responsive</h4>
-              <div class="about-text">
-                My layouts will work on any device, big or small.
-              </div>
-            </div>
-          </div>
-          <div class="col d-flex justify-content-around align-items-center">
-            <div class="text-center">
-              <div
-                class="golu d-flex justify-content-around align-items-center"
-              >
-                <i class="material-icons icon">emoji_objects</i>
-              </div>
-              <h4>Intuitive</h4>
-              <div class="about-text">
-                Strong preference for accessible, easy to use, intuitive UX/UI.
-              </div>
-            </div>
-            <div class="text-center">
-              <div
-                class="golu d-flex justify-content-around align-items-center"
-              >
-                <i class="material-icons icon">flight_takeoff</i>
-              </div>
-              <h4>Dynamic</h4>
-              <div class="about-text">
-                Websites don't have to be static, will make pages come to life.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row container">
-          <div class="col-md-7">
-            <div data-aos="zoom-out" data-aos-duration="1500">
-              <img
-                src="./images/myPic.jpg"
-                alt=""
-                class="img-fluid rounded-pill"
-              />
-            </div>
-            <div class="display-3">Who is this guy?</div>
-            <div class="lead">
-              I'm a Full-Stack Developer from Vancouver,BC. I am passionate
-              about building excellent software that improves the lives of those
-              around me. Feel free to take a look at my
-              <a href="#projects">projects</a> code and live-websites.
-              <a href="#contact">Let's make something special.</a>
-            </div>
-          </div>
-          <div
-            class="col-md-5 d-flex justify-content-center align-items-center mt-3"
-          >
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item bg-warning rounded-pill">
-                Front-End
-              </li>
-              <li class="list-group-item rounded-pill">
-                HTML
-              </li>
-              <li class="list-group-item rounded-pill">CSS</li>
-              <li class="list-group-item rounded-pill">
-                Javascript
-              </li>
-              <li class="list-group-item rounded-pill">
-                React
-              </li>
-              <li class="list-group-item rounded-pill">Redux</li>
-            </ul>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item bg-warning rounded-pill">
-                Back-End
-              </li>
-              <li class="list-group-item rounded-pill">
-                NodeJS
-              </li>
-              <li class="list-group-item rounded-pill">Express</li>
-              <li class="list-group-item rounded-pill">
-                Mongo
-              </li>
-              <li class="list-group-item rounded-pill">API's</li>
-              <li class="list-group-item rounded-pill">OAuth</li>
-            </ul>
-          </div>
-        </div>
-        <!-- <div class="arrow-up mt-3"></div> -->
-      </div>
-    </section>
-    <div class="skills container text-center py-5" id="projects">
-      <h3
-        class="headings"
-        data-aos="flip-up"
-        data-aos-duration="1000"
-        data-aos-mirror="true"
-        data-aos-once="false"
-      >
-        PROJECTS
-      </h3>
-      <div class="row d-flex justify-content-center">
-        <div
-          class="col-7 col-md-6 d-flex justify-content-center py-2"
-          data-aos="slide-right"
-          data-aos-delay="100"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
-        >
-          <div class="emaily-wrap">
-            <img src="./images/emaily.jpg" class="img-img" alt="..." />
-            <div class="emaily-description text-center pt-5">
-              <h3>Emaily</h3>
-              <h5>
-                React JS / Redux / NodeJS / Mongo / OAuth / SendGrid
-              </h5>
-              <p>
-                A convenient place to send surveys and organize your surveys
-                based on responses.
-              </p>
-              <div class="d-flex justify-content-around">
-                <a
-                  class="btn btn-primary"
-                  href="https://radiant-headland-71325.herokuapp.com/"
-                  >Live</a
-                >
-                <a
-                  class="btn btn-primary"
-                  href="https://github.com/dootrex/emaily"
-                  >Code</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-7 col-md-6 d-flex justify-content-center py-2"
-          data-aos="slide-left"
-          data-aos-offset="100"
-          data-aos-delay="100"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
-        >
-          <div class="stocky-wrap">
-            <img src="./images/stocky.jpg" class="img-img" alt="..." />
-            <div class="stocky-description text-center pt-5">
-              <h3>Stocky</h3>
-              <h5>
-                React JS / Redux / NodeJS / Mongo / OAuth / IexAPI
-              </h5>
-              <p>A virtual Stock Trading Platform</p>
-              <div class="d-flex justify-content-around">
-                <a
-                  href="https://infinite-bayou-69373.herokuapp.com/"
-                  class="btn btn-primary"
-                  >Live</a
-                >
-                <a
-                  href="https://github.com/dootrex/stock"
-                  class="btn btn-primary"
-                  >Code</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
-    <section></section>
-    <section>
-      <div class="contact container text-center py-5" id="contact">
-        <!-- <div class="pink-arrow"></div> -->
-        <h3
-          class="headings"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-mirror="true"
-          data-aos-once="false"
-          style="color: whitesmoke;"
-        >
-          CONTACT
-        </h3>
-        <div class="d-flex justify-content-around align-items-center">
-          <div
-            class="golu d-flex align-items-center justify-content-center"
-            data-aos="zoom-in"
-          >
-            <a href="https://linkedin.com/in/dootrex"
-              ><i class="fab fa-linkedin-in icon"></i
-            ></a>
-          </div>
-          <div
-            class="golu d-flex align-items-center justify-content-center"
-            data-aos="zoom-in"
-          >
-            <a href="https://github.com/dootrex"
-              ><i class="fab fa-github icon"></i
-            ></a>
-          </div>
-          <div
-            class="golu d-flex align-items-center justify-content-center"
-            data-aos="zoom-in"
-          >
-            <a href="https://medium.com/@avigill_65369"
-              ><i class="fab fa-medium icon"></i
-            ></a>
-          </div>
-        </div>
-        <div class="text-center mt-3">
-          <a href="mailto:avigill@hotmail.ca" style="color: whitesmoke;"
-            >avigill@hotmail.ca</a
-          >
-        </div>
-      </div>
-    </section>
     <script src="main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

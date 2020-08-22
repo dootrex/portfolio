@@ -4,11 +4,11 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-body {
+.wrapper {
   overflow-x: hidden;
 }
 .nav {
-  position: fixed;
+  position: relative;
   z-index: 1;
 }
 .heroy {
